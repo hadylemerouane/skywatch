@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+# Java
+api/target/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+# Secrets: never in Git
+*.key.pem
+pki/**/private/
+.env
